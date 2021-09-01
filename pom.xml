@@ -5,7 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
-  
+    <configuration>
+    <webXml>src\main\webapp\WEB-INF\web.xml</webXml>        
+  </configuration>
+
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
